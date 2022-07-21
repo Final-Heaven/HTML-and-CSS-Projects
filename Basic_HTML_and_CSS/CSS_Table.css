@@ -1,0 +1,18 @@
+table {
+	border: 3px solid gold;
+}
+
+td:hover {
+	background-color: aqua;
+	color: black;
+}
+
+tr, th {
+	background-color: green;
+	color: black;
+}
+
+tr, td {
+	background-color: grey;
+	color: lightcoral;
+}
