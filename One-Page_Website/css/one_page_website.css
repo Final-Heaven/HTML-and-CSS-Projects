@@ -1,0 +1,11 @@
+body{
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.input-box{
+    width: 180px;
+    margin: 2px;
+    border: 2px solid rgb(130, 168, 152);
+    border-radius: 5px;
+}
