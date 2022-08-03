@@ -69,3 +69,50 @@ table th{
 .column p{
     color: red;
 }
+
+#seventh_challenge:hover{
+    color: blueviolet;
+}
+
+.image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.text{
+    color: white;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+
+.overlay{
+    background-color: aqua;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.overlay:hover{
+    opacity: 1;
+}
+
+#text{
+    position: absolute;
+    color: rebeccapurple;
+    font-size: 30px;
+    top: 30px;
+    right: 150px;
+}
+
+#video{
+    position: absolute;
+}
