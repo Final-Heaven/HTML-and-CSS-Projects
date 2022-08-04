@@ -80,6 +80,10 @@ footer{
     background-color: white;
 }
 
+#footer{
+    color: black;
+}
+
 .Navbar{
     overflow: hidden;
     background-color: #0d5a5f;
@@ -213,7 +217,7 @@ input[type=text]{
 }
 
 input[type=text]:hover{
-    box-shadow: 0 0 5px #00004d inset;
+    box-shadow: 0 0 5px #041f22 inset;
 }
 
 input[type=submit]{
