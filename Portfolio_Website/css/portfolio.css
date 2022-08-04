@@ -17,7 +17,7 @@ h1:hover{
 }
 
 .white-text{
-    color: rgb(119, 169, 216);
+    color: white;
 }
 
 p{
@@ -36,7 +36,7 @@ p:hover{
 
 .center{
     text-align: center;
-    color: rgb(119, 169, 216);
+    color: white;
 }
 
 .center:hover{
@@ -135,7 +135,7 @@ footer{
 #Typing_Video{
     position: fixed;
     right: 0;
-    bottom: 0;
+    bottom: 30%;
     min-width: 100%;
     z-index: -1;
 }
