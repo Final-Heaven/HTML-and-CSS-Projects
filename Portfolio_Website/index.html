@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Daniel Castillo Portfolio</title>
+        <link rel="stylesheet" href="./css/portfolio.css">
+    </head>
+
+    <body class="Background">
+
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <br>
+        <br>
+
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="./videos/Hello World - 28320.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!--Text overlay-->
+        <div class="Video_Text">
+            <h1 class="white-text">Daniel Castillo's Portfolio</h1>
+            <strong>
+                <p class="center">
+                    Hello! My name is Daniel Castillo and this is my portfolio website.
+                    <br>This is the place where you can learn all about my skills and accomplishments!
+                    <br>I hope you enjoy your stay!
+                </p>
+            </strong>
+        </div>
+
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2">
+                <img scr="" alt="placeholder">
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    I am currently training to be a software developer. Right now, I'm enrolled at The Tech Academy
+                    <br>as part of their software developer bootcamp. Although I don't have much experience yet, I'm always
+                    <br>ready to take on new challenges and striving to become better!
+                </p>
+            </div>
+        </div>
+
+        <!--GitHub section-->
+        <div class="Row" id="GitHub">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    Below is the link to my GitHub profile, where you can view my work:
+                    <br>
+                    <p class="center"><a href="https://github.com/Final-Heaven" target="_blank">My GitHub Profile</a></p>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <a href="https://github.com/Final-Heaven" target="_blank"><img src="" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!--Contact section-->
+        <div class="Row" id="Contact">
+            <!--Left column-->
+            <div class="Column_2 Column_tall">
+                <img src="" alt="Contact Image">
+            </div>
+            <!--Contact form in right column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <form action="" method="POST">
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <inpupt type="submit" value="SUBMIT"></inpupt>
+                </form>
+            </div>
+        </div>
+
+        <!--Footer section-->
+        <footer>
+            <p>
+                <p class="center">Daniel Castillo</p>
+            </p>
+        </footer>
+
+    </body>
+</html>
