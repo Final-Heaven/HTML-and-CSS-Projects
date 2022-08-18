@@ -34,31 +34,20 @@
 		<!--GALLERY-->
 		<div id="gallery">
 			<h1>Gallery</h1>
+			<p>Click on an image to enlarge it!</p>
 				<!--Images for lightbox-->
 				<div class="row">
 					<div class="column">
-						<img src="./images/image_1.jpg" alt="Shibuya 109" width="627" height="418">
+						<img src="./images/img1_small.jpg" width=100% onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
 					</div>
 					<div class="column">
-						<img src="./images/image_2.jpg" alt="Tokyo tower" width="627" height="418">
+						<img src="./images/img2_small.jpg" width="100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
 					</div>
 					<div class="column">
-						<img src="./images/image_3.jpg" alt="Downtown" width="627" height="418">
+						<img src="./images/img3_small.jpg" width="100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
 					</div>
 					<div class="column">
-						<img src="./images/image_4.jpg" alt="Lake with boat" width="627" height="418">
-					</div>
-					<div class="column">
-						<img src="./images/image_5.jpg" alt="Woman walking through bamboo" width="627" height="418">
-					</div>
-					<div class="column">
-						<img src="./images/image_6.jpg" alt="Secluded shrine" width="627" height="418">
-					</div>
-					<div class="column">
-						<img src="./images/image_7.jpg" alt="Kabukicho gate" width="627" height="418">
-					</div>
-					<div class="column">
-						<img src="./images/image_8.jpg" alt="Akihabara" width="627" height="418">
+						<img src="./images/img4_small.jpg" width="100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
 					</div>
 				</div>
 
@@ -68,43 +57,23 @@
 					<div class="modal-content">
 
 						<div class="mySlides">
-							<div class="numbertext">1 / 8</div>
-							<img src="-------------" style="width:100%">
+							<div class="numbertext">1 / 4</div>
+							<img src="./images/img1_wide.jpg" style="width:100%">
 						</div>
 
 						<div class="mySlides">
-							<div class="numbertext">2 / 8</div>
-							<img src="-------------" style="width:100%">
+							<div class="numbertext">2 / 4</div>
+							<img src="./images/img2_wide.jpg" style="width:100%">
 						</div>
 
 						<div class="mySlides">
-							<div class="numbertext">3 / 8</div>
-							<img src="-------------" style="width:100%">
+							<div class="numbertext">3 / 4</div>
+							<img src="./images/img3_wide.jpg" style="width:100%">
 						</div>
 
 						<div class="mySlides">
-							<div class="numbertext">4 / 8</div>
-							<img src="-------------" style="width:100%">
-						</div>
-
-						<div class="mySlides">
-							<div class="numbertext">5 / 8</div>
-							<img src="-------------" style="width:100%">
-						</div>
-
-						<div class="mySlides">
-							<div class="numbertext">6 / 8</div>
-							<img src="-------------" style="width:100%">
-						</div>
-
-						<div class="mySlides">
-							<div class="numbertext">7 / 8</div>
-							<img src="-------------" style="width:100%">
-						</div>
-
-						<div class="mySlides">
-							<div class="numbertext">8 / 8</div>
-							<img src="-------------" style="width:100%">
+							<div class="numbertext">4 / 4</div>
+							<img src="./images/img4_wide.jpg" style="width:100%">
 						</div>
 
 						<!--Next/previous controls-->
@@ -117,38 +86,21 @@
 						</div>
 
 						<!--Thumbnail image controls-->
-						<div class="column">
-							<img class="demo" src="-----------------" onclick="currentSlide(1)" alt="--------">
+						<div class="column cursor">
+							<img class="demo" width="95%" src="./images/img1_small.jpg" onclick="currentSlide(1)" alt="Mount Fuji">
 						</div>
 
-						<div class="column">
-							<img class="demo" src="-----------------" onclick="currentSlide(1)" alt="--------">
+						<div class="column cursor">
+							<img class="demo" width="95%" src="./images/img2_small.jpg" onclick="currentSlide(2)" alt="Shibuya 109">
 						</div>
 
-						<div class="column">
-							<img class="demo" src="-----------------" onclick="currentSlide(1)" alt="--------">
+						<div class="column cursor">
+							<img class="demo" width="95%" src="./images/img3_small.jpg" onclick="currentSlide(3)" alt="Bamboo Forest">
 						</div>
 
-						<div class="column">
-							<img class="demo" src="-----------------" onclick="currentSlide(1)" alt="--------">
+						<div class="column cursor">
+							<img class="demo" width="95%" src="./images/img4_small.jpg" onclick="currentSlide(4)" alt="Cherry Blossoms">
 						</div>
-
-						<div class="column">
-							<img class="demo" src="-----------------" onclick="currentSlide(1)" alt="--------">
-						</div>
-
-						<div class="column">
-							<img class="demo" src="-----------------" onclick="currentSlide(1)" alt="--------">
-						</div>
-
-						<div class="column">
-							<img class="demo" src="-----------------" onclick="currentSlide(1)" alt="--------">
-						</div>
-
-						<div class="column">
-							<img class="demo" src="-----------------" onclick="currentSlide(1)" alt="--------">
-						</div>
-						
 					</div>
 				</div>
 		</div>
