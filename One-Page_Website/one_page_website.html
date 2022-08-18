@@ -34,14 +34,123 @@
 		<!--GALLERY-->
 		<div id="gallery">
 			<h1>Gallery</h1>
-				<img src="./images/image_1.jpg" alt="Shibuya 109" width="627" height="418">
-				<img src="./images/image_2.jpg" alt="Tokyo tower" width="627" height="418">
-				<img src="./images/image_3.jpg" alt="Downtown" width="627" height="418">
-				<img src="./images/image_4.jpg" alt="Lake with boat" width="627" height="418">
-				<img src="./images/image_5.jpg" alt="Woman walking through bamboo" width="627" height="418">
-				<img src="./images/image_6.jpg" alt="Secluded shrine" width="627" height="418">
-				<img src="./images/image_7.jpg" alt="Kabukicho gate" width="627" height="418">
-				<img src="./images/image_8.jpg" alt="Akihabara" width="627" height="418">
+				<!--Images for lightbox-->
+				<div class="row">
+					<div class="column">
+						<img src="./images/image_1.jpg" alt="Shibuya 109" width="627" height="418">
+					</div>
+					<div class="column">
+						<img src="./images/image_2.jpg" alt="Tokyo tower" width="627" height="418">
+					</div>
+					<div class="column">
+						<img src="./images/image_3.jpg" alt="Downtown" width="627" height="418">
+					</div>
+					<div class="column">
+						<img src="./images/image_4.jpg" alt="Lake with boat" width="627" height="418">
+					</div>
+					<div class="column">
+						<img src="./images/image_5.jpg" alt="Woman walking through bamboo" width="627" height="418">
+					</div>
+					<div class="column">
+						<img src="./images/image_6.jpg" alt="Secluded shrine" width="627" height="418">
+					</div>
+					<div class="column">
+						<img src="./images/image_7.jpg" alt="Kabukicho gate" width="627" height="418">
+					</div>
+					<div class="column">
+						<img src="./images/image_8.jpg" alt="Akihabara" width="627" height="418">
+					</div>
+				</div>
+
+				<!--The Lightbox-->
+				<div id="myModal" class="modal">
+					<span class="close cursor" onclick="closeModal()">&times;</span>
+					<div class="modal-content">
+
+						<div class="mySlides">
+							<div class="numbertext">1 / 8</div>
+							<img src="-------------" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+							<div class="numbertext">2 / 8</div>
+							<img src="-------------" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+							<div class="numbertext">3 / 8</div>
+							<img src="-------------" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+							<div class="numbertext">4 / 8</div>
+							<img src="-------------" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+							<div class="numbertext">5 / 8</div>
+							<img src="-------------" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+							<div class="numbertext">6 / 8</div>
+							<img src="-------------" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+							<div class="numbertext">7 / 8</div>
+							<img src="-------------" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+							<div class="numbertext">8 / 8</div>
+							<img src="-------------" style="width:100%">
+						</div>
+
+						<!--Next/previous controls-->
+						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+						<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+						<!--Caption text-->
+						<div class="caption-container">
+							<p id="caption"></p>
+						</div>
+
+						<!--Thumbnail image controls-->
+						<div class="column">
+							<img class="demo" src="-----------------" onclick="currentSlide(1)" alt="--------">
+						</div>
+
+						<div class="column">
+							<img class="demo" src="-----------------" onclick="currentSlide(1)" alt="--------">
+						</div>
+
+						<div class="column">
+							<img class="demo" src="-----------------" onclick="currentSlide(1)" alt="--------">
+						</div>
+
+						<div class="column">
+							<img class="demo" src="-----------------" onclick="currentSlide(1)" alt="--------">
+						</div>
+
+						<div class="column">
+							<img class="demo" src="-----------------" onclick="currentSlide(1)" alt="--------">
+						</div>
+
+						<div class="column">
+							<img class="demo" src="-----------------" onclick="currentSlide(1)" alt="--------">
+						</div>
+
+						<div class="column">
+							<img class="demo" src="-----------------" onclick="currentSlide(1)" alt="--------">
+						</div>
+
+						<div class="column">
+							<img class="demo" src="-----------------" onclick="currentSlide(1)" alt="--------">
+						</div>
+						
+					</div>
+				</div>
 		</div>
 		<!--END GALLERY-->
 		
